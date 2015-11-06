@@ -1,0 +1,2 @@
+INDEX VERSION 1.127+N:\MRTA\Christofides\.metadata\.plugins\org.eclipse.jdt.core
+1049395479.index

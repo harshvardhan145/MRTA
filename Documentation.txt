@@ -1,0 +1,29 @@
+Task allocation using graph coloring
+--------------------------------------------------------------------------------------
+Assumptions :
+1. Tasks are static and known.
+2. Area is explored and points are representred using standard 2D coordinate system.
+3. Number of robots are fixed and known.
+---------------------------------------------------------------------------------------
+Class:
+mapPoint(point_id,xcoord,ycoord,zcoord)
+-Used to represent a point on map. It consists of point_id, x coordinate, ycoordinate and z coordinate of point.
+Methods:
+	void addNeighbor(Point):
+		-add Point p to the neighbouring list of self.point
+	double idistance(mapPoint):
+		-Returns 2D distance between two points on XY axis.
+		
+inspireGraph()
+	Used to implement graphcoloring, TSP and Hungarian.
+
+	TSP
+		Algorith used : Christofide
+			**Implementation in Java **
+			Exported Java project to a jar file which takes filename as command line 				argument and computer the TSP.
+				Configuration of file : File contains a square matrix (cost matrix) of a 				cluster of points (n) where [i][j] value is distance between points i and 				j. Each cluster will have different files.
+	Task Allocation:
+		Algorithm Used : Hungarian
+			**Implementation in python**
+			Class Hungarian :
+				Used to call methods to allocate task.
